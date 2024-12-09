@@ -1,0 +1,39 @@
+.auth-form-div{
+    margin-bottom: 10px;
+}
+
+.auth-form-input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+
+.auth-form-submit-button{
+    width: 100%;
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #B7AFFE;
+    color: black;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.hash-error{
+    font-size: 18px;
+    color:red;
+}
+
+.input-label{
+    font-size:18px;
+}
+
+.main-container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
