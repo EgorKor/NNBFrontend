@@ -45,7 +45,7 @@ const LoginForm = () => {
           <div className="auth-form-div">
             <label htmlFor="hash" className="input-label">md5 hash:</label>
             <input
-              type="text"
+              type="password"
               id="hash"
               value={hash}
               onChange={(e) => setHash(e.target.value)}

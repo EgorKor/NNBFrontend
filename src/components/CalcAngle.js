@@ -14,8 +14,6 @@ function CalcAngle(){
     const [angleNormalized,setAngleNormalized] = useState("0");
     const [tolerance, setTolerance] = useState("0");    
 
-    
-
     const [angleFactError, setAngleFactError] = useState("");
     const [pointOfMeasureFactError, setPointOfMeasureFactError] = useState("");
     const [pointOfMeasurePredictedError,setPointOfMeasurePredictedError] = useState("");
